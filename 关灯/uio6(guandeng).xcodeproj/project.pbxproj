@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F239CD1CFDA3F10092443B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F239CC1CFDA3F10092443B /* main.m */; };
+		08F239D01CFDA3F10092443B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F239CF1CFDA3F10092443B /* AppDelegate.m */; };
+		08F239D31CFDA3F10092443B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F239D21CFDA3F10092443B /* ViewController.m */; };
+		08F239D61CFDA3F10092443B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F239D41CFDA3F10092443B /* Main.storyboard */; };
+		08F239D81CFDA3F10092443B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F239D71CFDA3F10092443B /* Assets.xcassets */; };
+		08F239DB1CFDA3F10092443B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F239D91CFDA3F10092443B /* LaunchScreen.storyboard */; };
+		08F239E61CFDA3F20092443B /* uio6_guandeng_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F239E51CFDA3F20092443B /* uio6_guandeng_Tests.m */; };
+		08F239F11CFDA3F20092443B /* uio6_guandeng_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F239F01CFDA3F20092443B /* uio6_guandeng_UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08F239E21CFDA3F20092443B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08F239C01CFDA3F10092443B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08F239C71CFDA3F10092443B;
+			remoteInfo = "uio6(guandeng)";
+		};
+		08F239ED1CFDA3F20092443B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08F239C01CFDA3F10092443B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08F239C71CFDA3F10092443B;
+			remoteInfo = "uio6(guandeng)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F239C81CFDA3F10092443B /* uio6(guandeng).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uio6(guandeng).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F239CC1CFDA3F10092443B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08F239CE1CFDA3F10092443B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08F239CF1CFDA3F10092443B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08F239D11CFDA3F10092443B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08F239D21CFDA3F10092443B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08F239D51CFDA3F10092443B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08F239D71CFDA3F10092443B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08F239DA1CFDA3F10092443B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08F239DC1CFDA3F20092443B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F239E11CFDA3F20092443B /* uio6(guandeng)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uio6(guandeng)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F239E51CFDA3F20092443B /* uio6_guandeng_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uio6_guandeng_Tests.m; sourceTree = "<group>"; };
+		08F239E71CFDA3F20092443B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F239EC1CFDA3F20092443B /* uio6(guandeng)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uio6(guandeng)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F239F01CFDA3F20092443B /* uio6_guandeng_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uio6_guandeng_UITests.m; sourceTree = "<group>"; };
+		08F239F21CFDA3F20092443B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08F239C51CFDA3F10092443B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F239DE1CFDA3F20092443B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F239E91CFDA3F20092443B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F239BF1CFDA3F10092443B = {
+			isa = PBXGroup;
+			children = (
+				08F239CA1CFDA3F10092443B /* uio6(guandeng) */,
+				08F239E41CFDA3F20092443B /* uio6(guandeng)Tests */,
+				08F239EF1CFDA3F20092443B /* uio6(guandeng)UITests */,
+				08F239C91CFDA3F10092443B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08F239C91CFDA3F10092443B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08F239C81CFDA3F10092443B /* uio6(guandeng).app */,
+				08F239E11CFDA3F20092443B /* uio6(guandeng)Tests.xctest */,
+				08F239EC1CFDA3F20092443B /* uio6(guandeng)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08F239CA1CFDA3F10092443B /* uio6(guandeng) */ = {
+			isa = PBXGroup;
+			children = (
+				08F239CE1CFDA3F10092443B /* AppDelegate.h */,
+				08F239CF1CFDA3F10092443B /* AppDelegate.m */,
+				08F239D11CFDA3F10092443B /* ViewController.h */,
+				08F239D21CFDA3F10092443B /* ViewController.m */,
+				08F239D41CFDA3F10092443B /* Main.storyboard */,
+				08F239D71CFDA3F10092443B /* Assets.xcassets */,
+				08F239D91CFDA3F10092443B /* LaunchScreen.storyboard */,
+				08F239DC1CFDA3F20092443B /* Info.plist */,
+				08F239CB1CFDA3F10092443B /* Supporting Files */,
+			);
+			path = "uio6(guandeng)";
+			sourceTree = "<group>";
+		};
+		08F239CB1CFDA3F10092443B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08F239CC1CFDA3F10092443B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08F239E41CFDA3F20092443B /* uio6(guandeng)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				08F239E51CFDA3F20092443B /* uio6_guandeng_Tests.m */,
+				08F239E71CFDA3F20092443B /* Info.plist */,
+			);
+			path = "uio6(guandeng)Tests";
+			sourceTree = "<group>";
+		};
+		08F239EF1CFDA3F20092443B /* uio6(guandeng)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				08F239F01CFDA3F20092443B /* uio6_guandeng_UITests.m */,
+				08F239F21CFDA3F20092443B /* Info.plist */,
+			);
+			path = "uio6(guandeng)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08F239C71CFDA3F10092443B /* uio6(guandeng) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F239F51CFDA3F20092443B /* Build configuration list for PBXNativeTarget "uio6(guandeng)" */;
+			buildPhases = (
+				08F239C41CFDA3F10092443B /* Sources */,
+				08F239C51CFDA3F10092443B /* Frameworks */,
+				08F239C61CFDA3F10092443B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uio6(guandeng)";
+			productName = "uio6(guandeng)";
+			productReference = 08F239C81CFDA3F10092443B /* uio6(guandeng).app */;
+			productType = "com.apple.product-type.application";
+		};
+		08F239E01CFDA3F20092443B /* uio6(guandeng)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F239F81CFDA3F20092443B /* Build configuration list for PBXNativeTarget "uio6(guandeng)Tests" */;
+			buildPhases = (
+				08F239DD1CFDA3F20092443B /* Sources */,
+				08F239DE1CFDA3F20092443B /* Frameworks */,
+				08F239DF1CFDA3F20092443B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08F239E31CFDA3F20092443B /* PBXTargetDependency */,
+			);
+			name = "uio6(guandeng)Tests";
+			productName = "uio6(guandeng)Tests";
+			productReference = 08F239E11CFDA3F20092443B /* uio6(guandeng)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08F239EB1CFDA3F20092443B /* uio6(guandeng)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F239FB1CFDA3F20092443B /* Build configuration list for PBXNativeTarget "uio6(guandeng)UITests" */;
+			buildPhases = (
+				08F239E81CFDA3F20092443B /* Sources */,
+				08F239E91CFDA3F20092443B /* Frameworks */,
+				08F239EA1CFDA3F20092443B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08F239EE1CFDA3F20092443B /* PBXTargetDependency */,
+			);
+			name = "uio6(guandeng)UITests";
+			productName = "uio6(guandeng)UITests";
+			productReference = 08F239EC1CFDA3F20092443B /* uio6(guandeng)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08F239C01CFDA3F10092443B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ibokan;
+				TargetAttributes = {
+					08F239C71CFDA3F10092443B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					08F239E01CFDA3F20092443B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 08F239C71CFDA3F10092443B;
+					};
+					08F239EB1CFDA3F20092443B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 08F239C71CFDA3F10092443B;
+					};
+				};
+			};
+			buildConfigurationList = 08F239C31CFDA3F10092443B /* Build configuration list for PBXProject "uio6(guandeng)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08F239BF1CFDA3F10092443B;
+			productRefGroup = 08F239C91CFDA3F10092443B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08F239C71CFDA3F10092443B /* uio6(guandeng) */,
+				08F239E01CFDA3F20092443B /* uio6(guandeng)Tests */,
+				08F239EB1CFDA3F20092443B /* uio6(guandeng)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08F239C61CFDA3F10092443B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F239DB1CFDA3F10092443B /* LaunchScreen.storyboard in Resources */,
+				08F239D81CFDA3F10092443B /* Assets.xcassets in Resources */,
+				08F239D61CFDA3F10092443B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F239DF1CFDA3F20092443B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F239EA1CFDA3F20092443B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F239C41CFDA3F10092443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F239D31CFDA3F10092443B /* ViewController.m in Sources */,
+				08F239D01CFDA3F10092443B /* AppDelegate.m in Sources */,
+				08F239CD1CFDA3F10092443B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F239DD1CFDA3F20092443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F239E61CFDA3F20092443B /* uio6_guandeng_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F239E81CFDA3F20092443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F239F11CFDA3F20092443B /* uio6_guandeng_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08F239E31CFDA3F20092443B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08F239C71CFDA3F10092443B /* uio6(guandeng) */;
+			targetProxy = 08F239E21CFDA3F20092443B /* PBXContainerItemProxy */;
+		};
+		08F239EE1CFDA3F20092443B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08F239C71CFDA3F10092443B /* uio6(guandeng) */;
+			targetProxy = 08F239ED1CFDA3F20092443B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08F239D41CFDA3F10092443B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F239D51CFDA3F10092443B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08F239D91CFDA3F10092443B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F239DA1CFDA3F10092443B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08F239F31CFDA3F20092443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08F239F41CFDA3F20092443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08F239F61CFDA3F20092443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "uio6(guandeng)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibokan.uio6-guandeng-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08F239F71CFDA3F20092443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "uio6(guandeng)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibokan.uio6-guandeng-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08F239F91CFDA3F20092443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "uio6(guandeng)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibokan.uio6-guandeng-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uio6(guandeng).app/uio6(guandeng)";
+			};
+			name = Debug;
+		};
+		08F239FA1CFDA3F20092443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "uio6(guandeng)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibokan.uio6-guandeng-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uio6(guandeng).app/uio6(guandeng)";
+			};
+			name = Release;
+		};
+		08F239FC1CFDA3F20092443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "uio6(guandeng)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibokan.uio6-guandeng-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "uio6(guandeng)";
+			};
+			name = Debug;
+		};
+		08F239FD1CFDA3F20092443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "uio6(guandeng)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibokan.uio6-guandeng-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "uio6(guandeng)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08F239C31CFDA3F10092443B /* Build configuration list for PBXProject "uio6(guandeng)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F239F31CFDA3F20092443B /* Debug */,
+				08F239F41CFDA3F20092443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F239F51CFDA3F20092443B /* Build configuration list for PBXNativeTarget "uio6(guandeng)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F239F61CFDA3F20092443B /* Debug */,
+				08F239F71CFDA3F20092443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F239F81CFDA3F20092443B /* Build configuration list for PBXNativeTarget "uio6(guandeng)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F239F91CFDA3F20092443B /* Debug */,
+				08F239FA1CFDA3F20092443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F239FB1CFDA3F20092443B /* Build configuration list for PBXNativeTarget "uio6(guandeng)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F239FC1CFDA3F20092443B /* Debug */,
+				08F239FD1CFDA3F20092443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08F239C01CFDA3F10092443B /* Project object */;
+}
